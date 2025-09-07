@@ -24,26 +24,20 @@
 <h1 class="text-[#141414] text-lg font-bold">بلاك بورد</h1>
 </div>
 <div class="flex flex-col gap-2 p-4 flex-grow">
-<a class="flex items-center gap-3 px-4 py-2.5 text-gray-700 hover:bg-gray-100 rounded-md" href="#">
-<span class="material-symbols-outlined text-gray-600">home</span>
-<p class="text-sm font-medium">الرئيسية</p>
-</a>
+
 <a class="flex items-center gap-3 px-4 py-2.5 text-[var(--primary-color)] bg-gray-100 rounded-md font-semibold" href="#">
 <span class="material-symbols-outlined text-[var(--primary-color)]">book</span>
 <p class="text-sm font-medium">المواد الدراسية</p>
 </a>
 <a class="flex items-center gap-3 px-4 py-2.5 text-gray-700 hover:bg-gray-100 rounded-md" href="#">
 <span class="material-symbols-outlined text-gray-600">calendar_today</span>
-<p class="text-sm font-medium">التقويم</p>
+<p class="text-sm font-medium">المحاظرات</p>
 </a>
 <a class="flex items-center gap-3 px-4 py-2.5 text-gray-700 hover:bg-gray-100 rounded-md" href="#">
-<span class="material-symbols-outlined text-gray-600">bar_chart</span>
-<p class="text-sm font-medium">الدرجات</p>
+<span class="material-symbols-outlined text-gray-600">notebook</span>
+<p class="text-sm font-medium">الواجبات</p>
 </a>
-<a class="flex items-center gap-3 px-4 py-2.5 text-gray-700 hover:bg-gray-100 rounded-md" href="#">
-<span class="material-symbols-outlined text-gray-600">build</span>
-<p class="text-sm font-medium">الأدوات</p>
-</a>
+
 </div>
 <div class="p-4 border-t border-gray-200">
 <a class="flex items-center gap-3 px-4 py-2.5 text-gray-700 hover:bg-gray-100 rounded-md" href="#">

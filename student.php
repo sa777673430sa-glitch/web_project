@@ -35,17 +35,14 @@
 <span class="text-sm font-medium">المقررات الدراسية</span>
 </a>
 <a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-100" href="#">
-<span class="material-symbols-outlined">calendar_today</span>
+<span class="material-symbols-outlined">notebook</span>
 <span class="text-sm font-medium">التقويم</span>
 </a>
 <a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-100" href="#">
 <span class="material-symbols-outlined">bar_chart</span>
 <span class="text-sm font-medium">الدرجات</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-100" href="#">
-<span class="material-symbols-outlined">build</span>
-<span class="text-sm font-medium">الأدوات</span>
-</a>
+
 </nav>
 <div class="flex flex-col gap-1 mt-auto">
 <a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-100" href="#">
