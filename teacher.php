@@ -34,9 +34,9 @@
 <p class="text-sm font-medium">المحاظرات</p>
 </a>
 <a class="flex items-center gap-3 px-4 py-2.5 text-gray-700 hover:bg-gray-100 rounded-md" href="#">
-<span class="material-symbols-outlined text-gray-600">notebook</span>
+<span class="material-symbols-outlined text-gray-600">book</span>
 <p class="text-sm font-medium">الواجبات</p>
-</a>
+</a>  
 
 </div>
 <div class="p-4 border-t border-gray-200">

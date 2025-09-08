@@ -1,0 +1,49 @@
+<!-- userForm.html -->
+<form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-2" for="fullName">اسم الشخص</label>
+    <input class="w-full py-3 px-4 text-gray-700 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" id="fullName" placeholder="ادخل الاسم الكامل" type="text"/>
+  </div>
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-2" for="password">كلمة المرور</label>
+    <input class="w-full py-3 px-4 text-gray-700 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" id="password" placeholder="ادخل كلمة المرور" type="password"/>
+  </div>
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-2" for="phoneNumber">رقم الهاتف</label>
+    <input class="w-full py-3 px-4 text-gray-700 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" id="phoneNumber" placeholder="ادخل رقم الهاتف" type="tel"/>
+  </div>
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-2" for="major">التخصص</label>
+    <select class="w-full py-3 px-4 text-gray-700 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" id="major">
+      <option disabled selected>اختر التخصص</option>
+      <option>علوم الحاسب</option>
+      <option>الامن السيبراني </option>
+      <option>تقنيات المعلومات</option>
+    </select>
+  </div>
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-2" for="level">المستوى</label>
+    <select class="w-full py-3 px-4 text-gray-700 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" id="level">
+      <option disabled selected>اختر المستوى</option>
+      <option>المستوى الأول</option>
+      <option>المستوى الثاني</option>
+      <option>المستوى الثالث</option>
+      <option>المستوى الرابع</option>
+      <option>المستوى الخامس</option>
+    </select>
+  </div>
+   <div>
+    <label class="block text-sm font-medium text-gray-700 mb-2" for="level">الصلاحيات</label>
+    <select class="w-full py-3 px-4 text-gray-700 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" id="level">
+      <option disabled selected>حدد صلاحية</option>
+      <option>طالب</option>
+      <option>مدرس</option>
+      <option>مدير</option>
+     
+    </select>
+  </div>
+  <div class="md:col-span-2 flex justify-end gap-4 mt-4">
+    <button class="px-6 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300" type="button">إلغاء</button>
+    <button class="px-6 py-2 text-sm font-medium text-white bg-indigo-600 rounded-lg shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" type="submit">إنشاء مستخدم</button>
+  </div>
+</form>
